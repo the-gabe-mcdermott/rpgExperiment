@@ -1,0 +1,42 @@
+### General options ###
+
+# Ignore initial commit, if it's just template/boilerplate
+# - Default: false
+
+#ignore_initial: true
+
+# Minimum time between blocks of commits
+# - Default: 120 min (change if you think some commits took you more than 2 hours)
+
+#time_cutoff: 90
+
+# Estimation factor (for each first commit of a timeblock)
+# Use the -e option to see the estimations Clockout makes, and tweak them using this 
+# value as necessary.
+# - Default: 1.0
+
+#estimation_factor: 0.9
+
+# Put any override times for specific commits here (minutes). (You can use SHA1 hashes
+# of any length). Useful for ignoring commits that add 3rd party libraries, say.
+# Note: keep a space before each hash for the YAML to parse properly.
+
+#overrides:
+# 48f63a7b: 90
+# d354a31a: 30
+
+
+### Clock-ins/-outs ###
+
+# Do not modify these directly; use the `clock in` and `clock out` commands.
+# See the readme for more details.
+
+out:
+- 2017-09-03 17:58:52 -0700: the.gabe.mcdermott@gmail.com
+- 2017-09-02 18:19:29 -0700: the.gabe.mcdermott@gmail.com
+in:
+- 2017-09-03 20:40:04 -0700: the.gabe.mcdermott@gmail.com
+- 2017-09-03 17:04:32 -0700: the.gabe.mcdermott@gmail.com
+- 2017-09-02 18:04:31 -0700: the.gabe.mcdermott@gmail.com
+- 2017-09-02 18:01:22 -0700: the.gabe.mcdermott@gmail.com
+
