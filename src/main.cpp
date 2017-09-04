@@ -8,8 +8,8 @@ using std::endl;
 
 int main()
 {
-    cout << " ello there!" << endl;
-    
+    cout << "Hello" << endl;
+
     TestSuite testSuite;
     testSuite.RunAllTests();
     

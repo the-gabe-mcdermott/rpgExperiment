@@ -1,5 +1,5 @@
 #
-TARGET_NAME=rpgExperiment.exe
+TARGET_NAME=rpgGame.exe
 SRC_DIR=../src
 BUILD_DIR=../build
 #
