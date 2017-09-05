@@ -2,6 +2,7 @@
 
 #include "TestSuite.h"
 
+#include "osResources/BasicConsole.h"
 #include "GameEngine/GameEngine.h"
 
 
@@ -17,6 +18,7 @@ int main()
     if (testSuite.RunAllTests() == false)
         return 1;
     
+    BasicConsole console;
     GameEngine gameInstance;
     
     gameInstance.Start();    
